@@ -4,6 +4,7 @@ public class nestedwork {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner in = new Scanner(System.in);
+		System.out.println("hello welcome to grade 6 cheat sheet");
 		System.out.println("pleas enter a number");
 		int first = in.nextInt();
 		System.out.println("please enter a second number");

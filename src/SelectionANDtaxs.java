@@ -10,18 +10,18 @@ public class SelectionANDtaxs {
 		double tax = 0;
 		double remainder = 0;
 		
-		double tax15=0;
-		double tax205=0;
-		double tax26=0;
-		double tax29=0;
-		double tax33=0;
+			double tax15=0;
+			double tax205=0;
+			double tax26=0;
+			double tax29=0;
+			double tax33=0;
 		
 		if (number <=49020) {
-			tax15 = number * 0.15;
-			remainder = number-tax15;
-			
+		tax15 = number * 0.15;
+		remainder = number-tax15;
+		
 			if (remainder >49020 && remainder <=98040) {
-				tax205 = remainder * 0.205;
+			tax205 = remainder * 0.205;
 			
 			}
 			
