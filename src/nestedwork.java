@@ -15,7 +15,7 @@ public class nestedwork {
 		}
 		
 		in.close();
-		System.out.println("have fun practicing your times tables");
+		System.out.println("have fun practicing your times tables, Im here to help");
 	}
 
 }

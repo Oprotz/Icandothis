@@ -5,7 +5,7 @@ public class SelectionANDtaxs {
 		// TODO Auto-generated method stub
 		Scanner in = new Scanner (System.in);
 		
-		System.out.println("please enter your final gross");
+		System.out.println("please enter your final gross or $ for tax");
 		int number = in.nextInt();
 		double tax = 0;
 		double remainder = 0;
@@ -36,7 +36,7 @@ public class SelectionANDtaxs {
 		
 		tax = tax15 + tax205+tax26+tax29+tax33;
 		System.out.println(tax);
-		System.out.println("here is your final tax,I know its a lot");
+		System.out.println("here is your final price with tax included,I know its a lot");
 		in.close();
 		
 	}

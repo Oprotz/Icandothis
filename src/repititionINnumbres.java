@@ -26,7 +26,7 @@ public class repititionINnumbres {
 		counter++;
 		}
 		
-		System.out.println("the total times its ran is "+ counter);
+		System.out.println("the total times the set of numbers ran is "+ counter);
 		
 	}
 

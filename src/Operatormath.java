@@ -26,7 +26,7 @@ public class Operatormath {
 		System.out.println("Your result is: "+number);
 		
 	 System.out.println("hahahahaha the answer will always be 8");
-	 System.out.println("try again PLease");
+	 System.out.println("try again Please, Any number");
 		in.close();
 	}
 

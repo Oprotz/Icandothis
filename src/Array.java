@@ -54,9 +54,9 @@ public class Array {
 		
 		
 		
-		System.out.println("The maximum is: "+max);
-		System.out.println("The minimum is: "+min);
-		System.out.println("The average is: "+average);
+		System.out.println("The maximum of your number is: "+max);
+		System.out.println("The minimum of your nunmber is: "+min);
+		System.out.println("The average of your nunber is: "+average);
 
 		
 		in.close();
