@@ -8,12 +8,12 @@ public class subprograms {
 
 
 
-	System.out.println("What is the first string:");
+	System.out.println("What is your first string");
 	String first = in.next();
 
 	
 
-	System.out.println("What is the second string:");
+System.out.println("WHAT IS YOUR second string");
 		String second = in.next();
 	System.out.println(combine(first, second));
 
@@ -21,8 +21,6 @@ public class subprograms {
 
 
 	}
-
-	
 
 	public static String combine(String first, String second) {
 
