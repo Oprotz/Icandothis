@@ -9,13 +9,13 @@ public class subprograms {
 
 
 	System.out.println("What is the first string:");
-	String Uno = in.next();
+	String first = in.next();
 
 	
 
 	System.out.println("What is the second string:");
-		String Dos = in.next();
-	System.out.println(combine(Uno, Dos));
+		String second = in.next();
+	System.out.println(combine(first, second));
 
 	
 
@@ -24,24 +24,24 @@ public class subprograms {
 
 	
 
-	public static String combine(String Uno, String Dos) {
+	public static String combine(String first, String second) {
 
-		String Tres = "";
+		String three = "";
 
-	for (int i = 0; i < Math.max(Uno.length(), Dos.length()); i++) {
+	for (int i = 0; i < Math.max(first.length(), second.length()); i++) {
 
-			if (i < Uno.length()) {
-		Tres += Uno.charAt(i);
+	if (i < first.length()) {
+		three += first.charAt(i);
 
 			}
 
-		Tres += Dos.charAt(i);
+		three += second.charAt(i);
 
 		}
 
 	
 
-return Tres;
+return three;
 	}
 
 }
